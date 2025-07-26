@@ -24,7 +24,8 @@ import io.cucumber.junit.CucumberOptions;
 				// creates and saves the basic html report in the target folder
 				"html:target/cucumber-default-report.html",
 				// stores all executed steps in a json file
-				"json:target/cucumber-report.json"
+				"json:target/cucumber-report.json",
+	            "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"// Enables Allure reporting
 
 		}
 )
